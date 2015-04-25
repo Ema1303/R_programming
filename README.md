@@ -1,2 +1,2 @@
 # R_programming
-# for MOOC (Coursera) R Programming
+for MOOC (Coursera) R Programming
