@@ -30,12 +30,12 @@ file.path() - find the path of a file
 unlink("name", recursive=TRUE) - delete directory
 
 ##Some examples:
-Example 1
+###Example 1
 
 Create a directory in the current working directory called "testdir2" and a subdirectory for it called "testdir3", 
 all in one command by using dir.create() and file.path():
 
-Solution
+###Solution
 
 dir.create(file.path('testdir2', 'testdir3'), recursive = TRUE)
 
@@ -49,11 +49,11 @@ length(variable) - check how many elements a variable holds
 
 ##Some examples
 
-Example 1
+###Example 1
 
 I need a new sequence which is as long as my_sequence (i do not know how many elements it holds)
 
-Solution
+###Solution
 
 1:length(my_seq)
 
@@ -65,19 +65,19 @@ OR
 
 seq_along(my_seq)
 
-Example 2
+###Example 2
 
 I want t create a vector with 40 zeros
 
-Solution
+###Solution
 
 rep(0, times=40) where rep stands for replicate
 
-Example 3
+###Example 3
 
 I want to repeat each elements of a vector 10 times
 
-Solution
+###Solution
 
 rep(c(0,1,2), each=10)
 
@@ -102,27 +102,27 @@ NaN - not a number
 
 ##Some examples
 
-Example 1
+###Example 1
 
 If x vector has 40 elements and I want to read first 10
 
-Solution
+###Solution
 
 x[1:10]
 
-Example 2
+###Example 2
 
 I want to know only 3 and 5th element of a vector
 
-Solution
+###Solution
 
 x[c(3,5)]
 
-Example 3
+###Example 3
 
 I want to know all elements except 3 and 5th
 
-Solution
+###Solution
 
 x[c(-3,-5)]
 
@@ -131,11 +131,11 @@ OR
 x[-c(3,5)]
 
 
-Example 4
+###Example 4
 
 Create a vector with named elements
 
-Solution
+###Solution
 
 vect <- c(foo=11,bar=2,norf=NA)
 
@@ -145,11 +145,11 @@ foo  bar norf
 
   11    2   NA
 
-Example 5
+###Example 5
 
 Get the names of elements
 
-Solution
+###Solution
 
 names(vect)
 
